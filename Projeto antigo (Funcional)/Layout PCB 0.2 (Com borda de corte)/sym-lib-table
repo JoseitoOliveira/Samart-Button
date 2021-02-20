@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Eletrônica-rescue)(type Legacy)(uri ${KIPRJMOD}/Eletrônica-rescue.lib)(options "")(descr ""))
+)

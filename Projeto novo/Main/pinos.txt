@@ -1,0 +1,10 @@
+d0 led verde 2
+d1 led vermehlo 3
+d2 led verde 3
+d3 reset
+d4 led vermelho 2
+d5 led vermelho 1
+d6 led verde 1
+d7 btn 3
+d8 btn 2
+rx btn 1

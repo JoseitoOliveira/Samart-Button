@@ -1,0 +1,275 @@
+EESchema Schematic File Version 4
+LIBS:Eletrônica-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Eletrônica-rescue:NodeMCU_v1.0-nodeMCU U1
+U 1 1 5CB0924C
+P 4250 2550
+F 0 "U1" H 4350 2975 50  0000 C CNN
+F 1 "NodeMCU_v1.0" H 4350 2884 50  0000 C CNN
+F 2 "Eletrônica:nodeMCU" H 4250 2550 50  0001 C CNN
+F 3 "" H 4250 2550 50  0001 C CNN
+	1    4250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eletrônica-rescue:R-Device R3
+U 1 1 5CB094B7
+P 6900 1650
+F 0 "R3" H 6970 1696 50  0000 L CNN
+F 1 "R" H 6970 1605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6830 1650 50  0001 C CNN
+F 3 "~" H 6900 1650 50  0001 C CNN
+	1    6900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eletrônica-rescue:R-Device R4
+U 1 1 5CB09519
+P 7950 1650
+F 0 "R4" H 8020 1696 50  0000 L CNN
+F 1 "R" H 8020 1605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7880 1650 50  0001 C CNN
+F 3 "~" H 7950 1650 50  0001 C CNN
+	1    7950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eletrônica-rescue:R-Device R2
+U 1 1 5CB09570
+P 5750 1650
+F 0 "R2" V 5543 1650 50  0000 C CNN
+F 1 "R" V 5634 1650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5680 1650 50  0001 C CNN
+F 3 "~" H 5750 1650 50  0001 C CNN
+	1    5750 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7950 1800 7950 1900
+Wire Wire Line
+	7950 1900 8250 1900
+Wire Wire Line
+	8300 1900 8300 2950
+Wire Wire Line
+	6900 1800 6900 1900
+Connection ~ 7950 1900
+Wire Wire Line
+	5750 1800 5750 1900
+$Comp
+L Eletrônica-rescue:LED-Device D1
+U 1 1 5CB09990
+P 5750 1350
+F 0 "D1" V 5788 1233 50  0000 R CNN
+F 1 "LED" V 5697 1233 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5750 1350 50  0001 C CNN
+F 3 "~" H 5750 1350 50  0001 C CNN
+	1    5750 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eletrônica-rescue:LED-Device D2
+U 1 1 5CB09E43
+P 6900 1350
+F 0 "D2" V 6938 1233 50  0000 R CNN
+F 1 "LED" V 6847 1233 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 6900 1350 50  0001 C CNN
+F 3 "~" H 6900 1350 50  0001 C CNN
+	1    6900 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eletrônica-rescue:LED-Device D3
+U 1 1 5CB0A15A
+P 7950 1350
+F 0 "D3" V 7988 1233 50  0000 R CNN
+F 1 "LED" V 7897 1233 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 7950 1350 50  0001 C CNN
+F 3 "~" H 7950 1350 50  0001 C CNN
+	1    7950 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eletrônica-rescue:Conn_01x02_Female-Connector J2
+U 1 1 5CB0AF27
+P 5850 800
+F 0 "J2" H 5877 776 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 5877 685 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5850 800 50  0001 C CNN
+F 3 "~" H 5850 800 50  0001 C CNN
+	1    5850 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eletrônica-rescue:Conn_01x02_Female-Connector J3
+U 1 1 5CB0B0BC
+P 7050 800
+F 0 "J3" H 7077 776 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 7077 685 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7050 800 50  0001 C CNN
+F 3 "~" H 7050 800 50  0001 C CNN
+	1    7050 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eletrônica-rescue:Conn_01x02_Female-Connector J4
+U 1 1 5CB0B1D4
+P 8200 850
+F 0 "J4" H 8227 826 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 8227 735 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8200 850 50  0001 C CNN
+F 3 "~" H 8200 850 50  0001 C CNN
+	1    8200 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1900 6100 1900
+Wire Wire Line
+	6900 1900 7200 1900
+Connection ~ 6900 1900
+Wire Wire Line
+	5650 900  5650 1050
+Wire Wire Line
+	5650 1050 6100 1050
+Wire Wire Line
+	6100 1050 6100 1900
+Connection ~ 6100 1900
+Wire Wire Line
+	6100 1900 6900 1900
+Wire Wire Line
+	6850 900  6850 1000
+Wire Wire Line
+	6850 1000 7200 1000
+Wire Wire Line
+	7200 1000 7200 1900
+Connection ~ 7200 1900
+Wire Wire Line
+	7200 1900 7950 1900
+Wire Wire Line
+	8000 1100 8250 1100
+Wire Wire Line
+	8250 1100 8250 1900
+Wire Wire Line
+	8000 950  8000 1100
+Connection ~ 8250 1900
+Wire Wire Line
+	8250 1900 8300 1900
+$Comp
+L Eletrônica-rescue:SW_Push_Dual-Switch SW1
+U 1 1 5CC1FD9D
+P 5200 1450
+F 0 "SW1" H 5200 1735 50  0000 C CNN
+F 1 "SW_Push_Dual" H 5200 1644 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 5200 1650 50  0001 C CNN
+F 3 "" H 5200 1650 50  0001 C CNN
+	1    5200 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1450 4850 1450
+Wire Wire Line
+	4850 1450 4850 2750
+Wire Wire Line
+	4850 2750 4750 2750
+Wire Wire Line
+	5400 1450 5500 1450
+Wire Wire Line
+	5500 1450 5500 1900
+Wire Wire Line
+	5500 1900 5750 1900
+Connection ~ 5750 1900
+Wire Wire Line
+	4750 3150 5600 3150
+Wire Wire Line
+	5600 3150 5600 800 
+Wire Wire Line
+	5600 800  5650 800 
+Wire Wire Line
+	4750 3350 5550 3350
+Wire Wire Line
+	5550 3350 5550 1200
+Wire Wire Line
+	5550 1200 5750 1200
+Wire Wire Line
+	4750 3450 6750 3450
+Wire Wire Line
+	6750 3450 6750 800 
+Wire Wire Line
+	6750 800  6850 800 
+Wire Wire Line
+	4750 2950 8300 2950
+Wire Wire Line
+	6900 1200 6600 1200
+Wire Wire Line
+	6600 1200 6600 2350
+Wire Wire Line
+	6600 2350 4750 2350
+Wire Wire Line
+	4750 3250 7850 3250
+Wire Wire Line
+	7850 3250 7850 850 
+Wire Wire Line
+	7850 850  8000 850 
+Wire Wire Line
+	7950 1200 7350 1200
+Wire Wire Line
+	7350 1200 7350 2550
+Wire Wire Line
+	7350 2550 4750 2550
+NoConn ~ 3950 2350
+NoConn ~ 3950 2650
+NoConn ~ 3950 2750
+NoConn ~ 3950 2850
+NoConn ~ 3950 2950
+NoConn ~ 3950 3050
+NoConn ~ 3950 3150
+NoConn ~ 3950 3250
+NoConn ~ 3950 3350
+NoConn ~ 3950 3450
+NoConn ~ 3950 3550
+NoConn ~ 4750 2450
+NoConn ~ 4750 2650
+NoConn ~ 4750 2850
+NoConn ~ 4750 3050
+NoConn ~ 4750 3550
+NoConn ~ 4750 3650
+NoConn ~ 4750 3750
+NoConn ~ 5000 1650
+NoConn ~ 5400 1650
+$Comp
+L Eletrônica-rescue:Jack-DC-Connector J1
+U 1 1 5CC3528F
+P 2750 3750
+F 0 "J1" H 2805 4075 50  0000 C CNN
+F 1 "Jack-DC" H 2805 3984 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 2800 3710 50  0001 C CNN
+F 3 "~" H 2800 3710 50  0001 C CNN
+	1    2750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3650 3250 3650
+Wire Wire Line
+	3250 3650 3250 3750
+Wire Wire Line
+	3250 3750 3950 3750
+Wire Wire Line
+	3050 3850 3750 3850
+Wire Wire Line
+	3750 3850 3750 3650
+Wire Wire Line
+	3750 3650 3950 3650
+$EndSCHEMATC

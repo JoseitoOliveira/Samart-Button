@@ -1,0 +1,59 @@
+
+
+
+
+
+
+// Flags de interrupões
+bool f_reset = false;
+bool f_bt1 = false;
+bool f_bt2 = false;
+bool f_bt3 = false;
+
+// Temporizadores para debouncing por software
+unsigned long t_reset = millis();
+unsigned long t_bt1 = millis();
+unsigned long t_bt2 = millis();
+unsigned long t_bt3 = millis();
+
+
+  pinMode(_rst,INPUT_PULLUP);
+  pinMode(_bt1,INPUT_PULLUP);
+  pinMode(_bt2,INPUT_PULLUP);
+  pinMode(_bt3,INPUT_PULLUP);
+  pinMode(_vd1,OUTPUT);
+  pinMode(_vd2,OUTPUT);
+  pinMode(_vd3,OUTPUT);
+  pinMode(_vm1,OUTPUT);
+  pinMode(_vm2,OUTPUT);
+  pinMode(_vm3,OUTPUT);
+
+  //attachInterrupt(digitalPinToInterrupt(_rst), interruptRst, FALLING);
+  //attachInterrupt(digitalPinToInterrupt(_bt1), interruptBt1, FALLING);
+  //attachInterrupt(digitalPinToInterrupt(_bt2), interruptBt2, FALLING);
+  //attachInterrupt(digitalPinToInterrupt(_bt3), interruptBt3, FALLING);
+
+void interruptRst() {
+  if (millis() - t_reset > 500) {
+    f_reset = true;
+    t_reset = millis();
+  }
+}
+void interruptBt1() {
+  if (millis() - t_bt1 > 500) {
+    f_bt1 = true;
+    t_bt1 = millis();
+  }
+}
+void interruptBt2() {
+  if (millis() - t_bt2 > 500) {
+    f_bt2 = true;
+    t_bt2 = millis();
+  }
+}
+void interruptBt3() {
+  if (millis() - t_bt3 > 500) {
+    f_bt3 = true;
+    t_bt3 = millis();
+  }
+}
