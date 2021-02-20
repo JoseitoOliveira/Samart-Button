@@ -1,4 +1,4 @@
-# Samart Button
+# Samart Button 🕹
  Dispositivo de comunicação que ajuda idosos a solicitarem atendimento dos seus cuidadores e/ou responsáveis de maneira rápida, prática e eficiente.
 
 
@@ -6,7 +6,7 @@
 
 O dispositivo acima se comunica por meio de TCP/IP com um computador que exibe as solicitações.
 
-Foi desenvolvido um software em C# que exibe as notificações recebidas.
+Foi desenvolvido um software em C# que exibe as notificações recebidas. Infelizmente eu perdi esse código ao formatar o computador e não fazer backup. 🙄
 
 ![alt text](Imagens/Dashboard.jpeg "Dispositivo apresentado em sala.")
 
